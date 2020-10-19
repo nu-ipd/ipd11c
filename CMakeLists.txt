@@ -13,3 +13,8 @@ add_c_test_program(test_graph_search
         src/graph.c
         src/graph_search.c
         ASAN)
+
+add_c_test_program(ipd11c-2
+        exercise/ipd11c-2.c
+        src/graph.c
+        ASAN)
